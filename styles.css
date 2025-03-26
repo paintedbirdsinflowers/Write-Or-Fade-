@@ -59,8 +59,3 @@ button:hover {
     background-color: #2980b9;
 }
 
-/* Optional styling for the link inside the button */
-.au-button {
-    color: white;
-    text-decoration: none;
-}
