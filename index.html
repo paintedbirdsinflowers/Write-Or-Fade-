@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write or Fade</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <h1>Write or Fade</h1>
+    <div id="controls">
+        <label for="goal">Word Goal: </label>
+        <input type="number" id="goal" value="100" min="1">
+        <label for="time">Time (seconds): </label>
+        <input type="number" id="time" value="300" min="1">
+        <button onclick="startWriting()">Start</button>
+        <div id="timer">Time Left: 300s</div>
+        <div id="word-count">Words: 0 / 100</div>
+        <div id="warning">Keep writing or your text will fade!</div>
+    </div>
+    <textarea id="writing-area" placeholder="Start typing here..."></textarea>
+    
+
+    <script src="script.js"></script> <!-- Links to JavaScript -->
+</body>
+  </html>
